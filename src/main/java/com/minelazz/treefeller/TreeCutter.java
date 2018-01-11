@@ -38,7 +38,7 @@ public final class TreeCutter extends BukkitRunnable {
     public void runLoop(Block b1, final int x1, final int z1) {
         for (int x = -2; x <= 2; x++) {
             for (int y = -2; y <= 2; y++) {
-                for (int z = -2; z <= 1; z++) {
+                for (int z = -2; z <= 2; z++) {
                     if (x == 0 && y == 0 && z == 0)
                         continue;
                     Block b2 = b1.getRelative(x, y, z);
